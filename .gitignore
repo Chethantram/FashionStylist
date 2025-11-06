@@ -1,0 +1,27 @@
+.DS_Store
+node_modules
+.idea
+package-lock.json
+/build
+.vscode/
+.idea/
+vite.config.*s.*
+
+# Environment Variables
+.env
+.env.*
+!.env.example
+Backend/.env
+Backend/.env.*
+!Backend/.env.example
+**/.env
+
+
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+
+# Build files
+dist/
+build/
